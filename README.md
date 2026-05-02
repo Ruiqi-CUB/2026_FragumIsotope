@@ -10,8 +10,8 @@ Public scripts for the Fraginae isotope manuscript.
 
 ## Expected inputs
 
-Place the source data files in `data/` before running the scripts.
+The scripts expect the source data files to be available locally with the same filenames used in the code. If you keep the default paths, place them in a `data/` folder next to `scripts/`, or edit the file paths in the scripts.
 
 ## Outputs
 
-Plots are written to `figures/`.
+Figures are written to a local `figures/` folder if it exists or can be created.
